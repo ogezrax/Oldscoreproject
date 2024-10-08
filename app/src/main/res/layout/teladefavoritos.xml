@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_gravity="right|center_vertical"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/person_fill0_wght400_grad0_opsz24_1"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="136dp"
+        android:layout_height="38dp"
+        android:text="Perfil"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="409dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="81dp"
+        android:background="#8F25FE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinner8">
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/vector" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="120dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/trophy_fill0_wght400_grad0_opsz24_1" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right|center_vertical"
+            android:layout_marginRight="110dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/vector__1_" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="68dp"
+            android:layout_height="67dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="9dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/person_fill0_wght400_grad0_opsz24_1" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_removebg_preview_1"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siga seus Favoritos"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="275dp"
+        android:layout_height="87dp"
+        android:text="Toque na ” + ” ao lado de uma liga, equipe ou partida."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:text="+"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="303dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

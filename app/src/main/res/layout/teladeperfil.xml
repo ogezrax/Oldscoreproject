@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="409dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="81dp"
+        android:background="#8F25FE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinner8">
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/vector" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="120dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/trophy_fill0_wght400_grad0_opsz24_1" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right|center_vertical"
+            android:layout_marginRight="110dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/vector__1_" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="68dp"
+            android:layout_height="67dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="9dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/person_fill0_wght400_grad0_opsz24_1" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/vector" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/trophy_fill0_wght400_grad0_opsz24_1" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|center_vertical"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/vector__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_gravity="right|center_vertical"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/person_fill0_wght400_grad0_opsz24_1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipse_4"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assine o Premium"
+        android:textSize="20sp"
+        app:icon="@drawable/star_fill0_wght400_grad0_opsz24__1__1"
+        app:iconPadding="8dp"
+        app:iconSize="36dp"
+        app:iconTint="#DDBD16"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="136dp"
+        android:layout_height="38dp"
+        android:text="Perfil"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="309dp"
+        android:layout_height="64dp"
+        android:background="#353535"
+        android:backgroundTint="#353535"
+        android:backgroundTintMode="src_over"
+        android:text="Novidades"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        app:icon="@drawable/edit_notifications_fill0_wght400_grad0_opsz24_1"
+        app:iconPadding="12dp"
+        app:iconSize="36dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="309dp"
+        android:layout_height="64dp"
+        android:background="#353535"
+        android:backgroundTint="#353535"
+        android:backgroundTintMode="src_over"
+        android:text="Probabilidade"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        app:icon="@drawable/trending_up_fill0_wght400_grad0_opsz24_1"
+        app:iconPadding="12dp"
+        app:iconSize="36dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="309dp"
+        android:layout_height="64dp"
+        android:background="#353535"
+        android:backgroundTint="#353535"
+        android:backgroundTintMode="src_over"
+        android:text="Configurações"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        app:icon="@drawable/settings_fill0_wght400_grad0_opsz24_1"
+        app:iconPadding="12dp"
+        app:iconSize="36dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="309dp"
+        android:layout_height="64dp"
+        android:background="#353535"
+        android:backgroundTint="#353535"
+        android:backgroundTintMode="src_over"
+        android:text="Compartilhe Oldscore"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        app:icon="@drawable/ios_share_fill0_wght400_grad0_opsz24_2"
+        app:iconPadding="12dp"
+        app:iconSize="36dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="309dp"
+        android:layout_height="64dp"
+        android:background="#353535"
+        android:backgroundTint="#353535"
+        android:backgroundTintMode="src_over"
+        android:text="Avalie-nos"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        app:icon="@drawable/chat_fill0_wght400_grad0_opsz24_1"
+        app:iconPadding="12dp"
+        app:iconSize="36dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
